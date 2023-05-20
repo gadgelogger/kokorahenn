@@ -1,0 +1,50 @@
+{
+  "pins" : [
+    {
+      "identity" : "cosmos",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/evgenyneu/Cosmos.git",
+      "state" : {
+        "revision" : "cce521e734d0090494bd4afab5fd2e2f2465c1af",
+        "version" : "23.0.0"
+      }
+    },
+    {
+      "identity" : "imageviewer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Krisiacik/ImageViewer.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "18770b879f1574b76a9351bb1d1afb6fd05ee929"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage.git",
+      "state" : {
+        "revision" : "20df851f2ae27efbaeeff73e9babdf4fd839a144",
+        "version" : "5.15.6"
+      }
+    },
+    {
+      "identity" : "sdwebimageswiftui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImageSwiftUI.git",
+      "state" : {
+        "revision" : "e837c37d45449fbd3b4745c10c5b5274e73edead",
+        "version" : "2.2.3"
+      }
+    },
+    {
+      "identity" : "waterfallgrid",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/paololeonardi/WaterfallGrid.git",
+      "state" : {
+        "revision" : "944aa82832ed5a9eaaf50862cdd53e3c10ab55eb",
+        "version" : "1.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}
