@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E691D302A0345DB006469BA /* kadaiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E691D2F2A0345DB006469BA /* kadaiApp.swift */; };
+		2E691D322A0345DB006469BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E691D312A0345DB006469BA /* ContentView.swift */; };
+		2E691D342A0345DB006469BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E691D332A0345DB006469BA /* Assets.xcassets */; };
+		2E691D372A0345DB006469BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E691D362A0345DB006469BA /* Preview Assets.xcassets */; };
+		2E691D412A0345DB006469BA /* kadaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E691D402A0345DB006469BA /* kadaiTests.swift */; };
+		2E691D4B2A0345DC006469BA /* kadaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E691D4A2A0345DC006469BA /* kadaiUITests.swift */; };
+		2E691D4D2A0345DC006469BA /* kadaiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E691D4C2A0345DC006469BA /* kadaiUITestsLaunchTests.swift */; };
+		2E691D5E2A055A5A006469BA /* WaterfallGrid in Frameworks */ = {isa = PBXBuildFile; productRef = 2E691D5D2A055A5A006469BA /* WaterfallGrid */; };
+		2E691D602A05F29E006469BA /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E691D5F2A05F29E006469BA /* home.swift */; };
+		2E691D622A05F3E7006469BA /* Setteng.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E691D612A05F3E7006469BA /* Setteng.swift */; };
+		2E691D652A05FAE8006469BA /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2E691D642A05FAE8006469BA /* SDWebImageSwiftUI */; };
+		2E691D682A060452006469BA /* Cosmos in Frameworks */ = {isa = PBXBuildFile; productRef = 2E691D672A060452006469BA /* Cosmos */; };
+		2E691D6C2A063BC9006469BA /* ImageViewer in Frameworks */ = {isa = PBXBuildFile; productRef = 2E691D6B2A063BC9006469BA /* ImageViewer */; };
+		2E691D792A07E53E006469BA /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 2E691D782A07E53E006469BA /* Assets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E691D3D2A0345DB006469BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E691D242A0345DB006469BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E691D2B2A0345DB006469BA;
+			remoteInfo = kadai;
+		};
+		2E691D472A0345DC006469BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E691D242A0345DB006469BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E691D2B2A0345DB006469BA;
+			remoteInfo = kadai;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E691D2C2A0345DB006469BA /* kokorahenn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kokorahenn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E691D2F2A0345DB006469BA /* kadaiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kadaiApp.swift; sourceTree = "<group>"; };
+		2E691D312A0345DB006469BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2E691D332A0345DB006469BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E691D362A0345DB006469BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E691D3C2A0345DB006469BA /* kokorahennTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kokorahennTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E691D402A0345DB006469BA /* kadaiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kadaiTests.swift; sourceTree = "<group>"; };
+		2E691D462A0345DC006469BA /* kokorahennUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kokorahennUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E691D4A2A0345DC006469BA /* kadaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kadaiUITests.swift; sourceTree = "<group>"; };
+		2E691D4C2A0345DC006469BA /* kadaiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kadaiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2E691D5F2A05F29E006469BA /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+		2E691D612A05F3E7006469BA /* Setteng.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setteng.swift; sourceTree = "<group>"; };
+		2E691D6F2A07698B006469BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2E691D782A07E53E006469BA /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E691D292A0345DB006469BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E691D6C2A063BC9006469BA /* ImageViewer in Frameworks */,
+				2E691D652A05FAE8006469BA /* SDWebImageSwiftUI in Frameworks */,
+				2E691D682A060452006469BA /* Cosmos in Frameworks */,
+				2E691D5E2A055A5A006469BA /* WaterfallGrid in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E691D392A0345DB006469BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E691D432A0345DC006469BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E691D232A0345DB006469BA = {
+			isa = PBXGroup;
+			children = (
+				2E691D782A07E53E006469BA /* Assets */,
+				2E691D2E2A0345DB006469BA /* kokorahenn */,
+				2E691D3F2A0345DB006469BA /* kokorahennTests */,
+				2E691D492A0345DC006469BA /* kokorahennTests */,
+				2E691D2D2A0345DB006469BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E691D2D2A0345DB006469BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E691D2C2A0345DB006469BA /* kokorahenn.app */,
+				2E691D3C2A0345DB006469BA /* kokorahennTests.xctest */,
+				2E691D462A0345DC006469BA /* kokorahennUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E691D2E2A0345DB006469BA /* kokorahenn */ = {
+			isa = PBXGroup;
+			children = (
+				2E691D6F2A07698B006469BA /* Info.plist */,
+				2E691D2F2A0345DB006469BA /* kadaiApp.swift */,
+				2E691D312A0345DB006469BA /* ContentView.swift */,
+				2E691D332A0345DB006469BA /* Assets.xcassets */,
+				2E691D352A0345DB006469BA /* Preview Content */,
+				2E691D5F2A05F29E006469BA /* home.swift */,
+				2E691D612A05F3E7006469BA /* Setteng.swift */,
+			);
+			path = kokorahenn;
+			sourceTree = "<group>";
+		};
+		2E691D352A0345DB006469BA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2E691D362A0345DB006469BA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2E691D3F2A0345DB006469BA /* kokorahennTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E691D402A0345DB006469BA /* kadaiTests.swift */,
+			);
+			path = kokorahennTests;
+			sourceTree = "<group>";
+		};
+		2E691D492A0345DC006469BA /* kokorahennTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E691D4A2A0345DC006469BA /* kadaiUITests.swift */,
+				2E691D4C2A0345DC006469BA /* kadaiUITestsLaunchTests.swift */,
+			);
+			path = kokorahennTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E691D2B2A0345DB006469BA /* kokorahenn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E691D502A0345DC006469BA /* Build configuration list for PBXNativeTarget "kokorahenn" */;
+			buildPhases = (
+				2E691D282A0345DB006469BA /* Sources */,
+				2E691D292A0345DB006469BA /* Frameworks */,
+				2E691D2A2A0345DB006469BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kokorahenn;
+			packageProductDependencies = (
+				2E691D5D2A055A5A006469BA /* WaterfallGrid */,
+				2E691D642A05FAE8006469BA /* SDWebImageSwiftUI */,
+				2E691D672A060452006469BA /* Cosmos */,
+				2E691D6B2A063BC9006469BA /* ImageViewer */,
+			);
+			productName = kadai;
+			productReference = 2E691D2C2A0345DB006469BA /* kokorahenn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E691D3B2A0345DB006469BA /* kokorahennTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E691D532A0345DC006469BA /* Build configuration list for PBXNativeTarget "kokorahennTests" */;
+			buildPhases = (
+				2E691D382A0345DB006469BA /* Sources */,
+				2E691D392A0345DB006469BA /* Frameworks */,
+				2E691D3A2A0345DB006469BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E691D3E2A0345DB006469BA /* PBXTargetDependency */,
+			);
+			name = kokorahennTests;
+			productName = kadaiTests;
+			productReference = 2E691D3C2A0345DB006469BA /* kokorahennTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E691D452A0345DC006469BA /* kokorahennUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E691D562A0345DC006469BA /* Build configuration list for PBXNativeTarget "kokorahennUITests" */;
+			buildPhases = (
+				2E691D422A0345DC006469BA /* Sources */,
+				2E691D432A0345DC006469BA /* Frameworks */,
+				2E691D442A0345DC006469BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E691D482A0345DC006469BA /* PBXTargetDependency */,
+			);
+			name = kokorahennUITests;
+			productName = kadaiUITests;
+			productReference = 2E691D462A0345DC006469BA /* kokorahennUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E691D242A0345DB006469BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2E691D2B2A0345DB006469BA = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					2E691D3B2A0345DB006469BA = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 2E691D2B2A0345DB006469BA;
+					};
+					2E691D452A0345DC006469BA = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 2E691D2B2A0345DB006469BA;
+					};
+				};
+			};
+			buildConfigurationList = 2E691D272A0345DB006469BA /* Build configuration list for PBXProject "kokorahenn" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E691D232A0345DB006469BA;
+			packageReferences = (
+				2E691D5C2A055A5A006469BA /* XCRemoteSwiftPackageReference "WaterfallGrid" */,
+				2E691D632A05FAE8006469BA /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				2E691D662A060452006469BA /* XCRemoteSwiftPackageReference "Cosmos" */,
+				2E691D6A2A063BC9006469BA /* XCRemoteSwiftPackageReference "ImageViewer" */,
+			);
+			productRefGroup = 2E691D2D2A0345DB006469BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E691D2B2A0345DB006469BA /* kokorahenn */,
+				2E691D3B2A0345DB006469BA /* kokorahennTests */,
+				2E691D452A0345DC006469BA /* kokorahennUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E691D2A2A0345DB006469BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E691D372A0345DB006469BA /* Preview Assets.xcassets in Resources */,
+				2E691D792A07E53E006469BA /* Assets in Resources */,
+				2E691D342A0345DB006469BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E691D3A2A0345DB006469BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E691D442A0345DC006469BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E691D282A0345DB006469BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E691D602A05F29E006469BA /* home.swift in Sources */,
+				2E691D322A0345DB006469BA /* ContentView.swift in Sources */,
+				2E691D622A05F3E7006469BA /* Setteng.swift in Sources */,
+				2E691D302A0345DB006469BA /* kadaiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E691D382A0345DB006469BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E691D412A0345DB006469BA /* kadaiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E691D422A0345DC006469BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E691D4B2A0345DC006469BA /* kadaiUITests.swift in Sources */,
+				2E691D4D2A0345DC006469BA /* kadaiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E691D3E2A0345DB006469BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E691D2B2A0345DB006469BA /* kokorahenn */;
+			targetProxy = 2E691D3D2A0345DB006469BA /* PBXContainerItemProxy */;
+		};
+		2E691D482A0345DC006469BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E691D2B2A0345DB006469BA /* kokorahenn */;
+			targetProxy = 2E691D472A0345DC006469BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2E691D4E2A0345DC006469BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E691D4F2A0345DC006469BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E691D512A0345DC006469BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"kokorahenn/Preview Content\"";
+				DEVELOPMENT_TEAM = DC796ZJULC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = kokorahenn/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "ここらへん";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "周辺の施設を探すために位置情報を利用します。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kokorahenn.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E691D522A0345DC006469BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"kokorahenn/Preview Content\"";
+				DEVELOPMENT_TEAM = DC796ZJULC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = kokorahenn/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "ここらへん";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "周辺の施設を探すために位置情報を利用します。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kokorahenn.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2E691D542A0345DC006469BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DC796ZJULC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kokorahenn.kokorahennTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kokorahenn.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kokorahenn";
+			};
+			name = Debug;
+		};
+		2E691D552A0345DC006469BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DC796ZJULC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kokorahenn.kokorahennTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kokorahenn.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kokorahenn";
+			};
+			name = Release;
+		};
+		2E691D572A0345DC006469BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DC796ZJULC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ここらへん";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kokorahenn.kokorahennUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kokorahenn;
+			};
+			name = Debug;
+		};
+		2E691D582A0345DC006469BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DC796ZJULC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ここらへん";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kokorahenn.kokorahennUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kokorahenn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E691D272A0345DB006469BA /* Build configuration list for PBXProject "kokorahenn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E691D4E2A0345DC006469BA /* Debug */,
+				2E691D4F2A0345DC006469BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E691D502A0345DC006469BA /* Build configuration list for PBXNativeTarget "kokorahenn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E691D512A0345DC006469BA /* Debug */,
+				2E691D522A0345DC006469BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E691D532A0345DC006469BA /* Build configuration list for PBXNativeTarget "kokorahennTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E691D542A0345DC006469BA /* Debug */,
+				2E691D552A0345DC006469BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E691D562A0345DC006469BA /* Build configuration list for PBXNativeTarget "kokorahennUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E691D572A0345DC006469BA /* Debug */,
+				2E691D582A0345DC006469BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2E691D5C2A055A5A006469BA /* XCRemoteSwiftPackageReference "WaterfallGrid" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/paololeonardi/WaterfallGrid.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		2E691D632A05FAE8006469BA /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		2E691D662A060452006469BA /* XCRemoteSwiftPackageReference "Cosmos" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/Cosmos.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 23.0.0;
+			};
+		};
+		2E691D6A2A063BC9006469BA /* XCRemoteSwiftPackageReference "ImageViewer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Krisiacik/ImageViewer.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2E691D5D2A055A5A006469BA /* WaterfallGrid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E691D5C2A055A5A006469BA /* XCRemoteSwiftPackageReference "WaterfallGrid" */;
+			productName = WaterfallGrid;
+		};
+		2E691D642A05FAE8006469BA /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E691D632A05FAE8006469BA /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		2E691D672A060452006469BA /* Cosmos */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E691D662A060452006469BA /* XCRemoteSwiftPackageReference "Cosmos" */;
+			productName = Cosmos;
+		};
+		2E691D6B2A063BC9006469BA /* ImageViewer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E691D6A2A063BC9006469BA /* XCRemoteSwiftPackageReference "ImageViewer" */;
+			productName = ImageViewer;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2E691D242A0345DB006469BA /* Project object */;
+}
