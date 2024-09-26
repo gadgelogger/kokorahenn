@@ -8,7 +8,7 @@ struct ContentView: View {
     
     var body: some View {
         TabView {
-            home()
+            HomeView()
                 .tabItem {
                     VStack {
                         Image(systemName: "fork.knife.circle")

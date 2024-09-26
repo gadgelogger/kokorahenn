@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E2BB5242CA549040080A975 /* LocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB5232CA549040080A975 /* LocationController.swift */; };
+		2E2BB5292CA5490F0080A975 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB5252CA5490F0080A975 /* Place.swift */; };
+		2E2BB52A2CA5490F0080A975 /* PlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB5272CA5490F0080A975 /* PlacesViewModel.swift */; };
+		2E2BB52D2CA549210080A975 /* PlaceDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB52C2CA549210080A975 /* PlaceDetailsView.swift */; };
+		2E2BB52E2CA549210080A975 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB52B2CA549210080A975 /* HomeView.swift */; };
+		2E2BB5342CA55E920080A975 /* DetailImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB5322CA55E920080A975 /* DetailImage.swift */; };
+		2E2BB5352CA55E920080A975 /* DetailInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB5332CA55E920080A975 /* DetailInfo.swift */; };
+		2E2BB5362CA55E920080A975 /* DetailButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB5312CA55E920080A975 /* DetailButtons.swift */; };
 		2E691D302A0345DB006469BA /* kadaiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E691D2F2A0345DB006469BA /* kadaiApp.swift */; };
 		2E691D322A0345DB006469BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E691D312A0345DB006469BA /* ContentView.swift */; };
 		2E691D342A0345DB006469BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E691D332A0345DB006469BA /* Assets.xcassets */; };
@@ -15,7 +23,6 @@
 		2E691D4B2A0345DC006469BA /* kadaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E691D4A2A0345DC006469BA /* kadaiUITests.swift */; };
 		2E691D4D2A0345DC006469BA /* kadaiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E691D4C2A0345DC006469BA /* kadaiUITestsLaunchTests.swift */; };
 		2E691D5E2A055A5A006469BA /* WaterfallGrid in Frameworks */ = {isa = PBXBuildFile; productRef = 2E691D5D2A055A5A006469BA /* WaterfallGrid */; };
-		2E691D602A05F29E006469BA /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E691D5F2A05F29E006469BA /* home.swift */; };
 		2E691D622A05F3E7006469BA /* Setteng.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E691D612A05F3E7006469BA /* Setteng.swift */; };
 		2E691D652A05FAE8006469BA /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2E691D642A05FAE8006469BA /* SDWebImageSwiftUI */; };
 		2E691D682A060452006469BA /* Cosmos in Frameworks */ = {isa = PBXBuildFile; productRef = 2E691D672A060452006469BA /* Cosmos */; };
@@ -41,6 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E2BB5232CA549040080A975 /* LocationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationController.swift; sourceTree = "<group>"; };
+		2E2BB5252CA5490F0080A975 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		2E2BB5272CA5490F0080A975 /* PlacesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewModel.swift; sourceTree = "<group>"; };
+		2E2BB52B2CA549210080A975 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2E2BB52C2CA549210080A975 /* PlaceDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailsView.swift; sourceTree = "<group>"; };
+		2E2BB5312CA55E920080A975 /* DetailButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailButtons.swift; sourceTree = "<group>"; };
+		2E2BB5322CA55E920080A975 /* DetailImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailImage.swift; sourceTree = "<group>"; };
+		2E2BB5332CA55E920080A975 /* DetailInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInfo.swift; sourceTree = "<group>"; };
 		2E691D2C2A0345DB006469BA /* kokorahenn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kokorahenn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E691D2F2A0345DB006469BA /* kadaiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kadaiApp.swift; sourceTree = "<group>"; };
 		2E691D312A0345DB006469BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,7 +66,6 @@
 		2E691D462A0345DC006469BA /* kokorahennUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kokorahennUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E691D4A2A0345DC006469BA /* kadaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kadaiUITests.swift; sourceTree = "<group>"; };
 		2E691D4C2A0345DC006469BA /* kadaiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kadaiUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		2E691D5F2A05F29E006469BA /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
 		2E691D612A05F3E7006469BA /* Setteng.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setteng.swift; sourceTree = "<group>"; };
 		2E691D6F2A07698B006469BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2E691D782A07E53E006469BA /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
@@ -86,6 +100,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E2BB51E2CA548410080A975 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E2BB5252CA5490F0080A975 /* Place.swift */,
+				2E2BB5272CA5490F0080A975 /* PlacesViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E2BB51F2CA548480080A975 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E2BB52B2CA549210080A975 /* HomeView.swift */,
+				2E2BB52C2CA549210080A975 /* PlaceDetailsView.swift */,
+				2E691D612A05F3E7006469BA /* Setteng.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E2BB5202CA5484C0080A975 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2E2BB5232CA549040080A975 /* LocationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		2E691D232A0345DB006469BA = {
 			isa = PBXGroup;
 			children = (
@@ -110,13 +151,17 @@
 		2E691D2E2A0345DB006469BA /* kokorahenn */ = {
 			isa = PBXGroup;
 			children = (
+				2E2BB5202CA5484C0080A975 /* Controller */,
+				2E2BB51F2CA548480080A975 /* View */,
+				2E2BB51E2CA548410080A975 /* Model */,
 				2E691D6F2A07698B006469BA /* Info.plist */,
 				2E691D2F2A0345DB006469BA /* kadaiApp.swift */,
 				2E691D312A0345DB006469BA /* ContentView.swift */,
 				2E691D332A0345DB006469BA /* Assets.xcassets */,
 				2E691D352A0345DB006469BA /* Preview Content */,
-				2E691D5F2A05F29E006469BA /* home.swift */,
-				2E691D612A05F3E7006469BA /* Setteng.swift */,
+				2E2BB5312CA55E920080A975 /* DetailButtons.swift */,
+				2E2BB5322CA55E920080A975 /* DetailImage.swift */,
+				2E2BB5332CA55E920080A975 /* DetailInfo.swift */,
 			);
 			path = kokorahenn;
 			sourceTree = "<group>";
@@ -289,10 +334,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E691D602A05F29E006469BA /* home.swift in Sources */,
 				2E691D322A0345DB006469BA /* ContentView.swift in Sources */,
+				2E2BB5342CA55E920080A975 /* DetailImage.swift in Sources */,
+				2E2BB5352CA55E920080A975 /* DetailInfo.swift in Sources */,
+				2E2BB5362CA55E920080A975 /* DetailButtons.swift in Sources */,
 				2E691D622A05F3E7006469BA /* Setteng.swift in Sources */,
 				2E691D302A0345DB006469BA /* kadaiApp.swift in Sources */,
+				2E2BB52D2CA549210080A975 /* PlaceDetailsView.swift in Sources */,
+				2E2BB52E2CA549210080A975 /* HomeView.swift in Sources */,
+				2E2BB5292CA5490F0080A975 /* Place.swift in Sources */,
+				2E2BB52A2CA5490F0080A975 /* PlacesViewModel.swift in Sources */,
+				2E2BB5242CA549040080A975 /* LocationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
